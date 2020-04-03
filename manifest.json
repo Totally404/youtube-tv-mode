@@ -1,0 +1,14 @@
+{
+  "name": "youtube-tv-mode",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://www.youtube.com/"
+  ],
+  "background": {
+    "persistent": true,
+    "scripts": ["background.js"]
+  }
+}
